@@ -1,0 +1,20 @@
+ nav a {
+     margin-right: 100px;
+     text-decoration: none;
+     color: rgba(255, 0, 179, 0.884);
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+     margin: 10px;
+     color: rgba(60, 255, 0, 0.884);
+ }
+ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: rgba(255, 0, 179, 0.884);
+    border: 1px solid rgba(60, 255, 0, 0.884);
+    border-radius: 5px;
+}
+ 
