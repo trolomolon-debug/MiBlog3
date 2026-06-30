@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "Nosotros";
 ---
 
 <html lang="en">
@@ -9,12 +9,26 @@
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Nosotros</title>
+		<title>{pageTitle}</title>
+        <style>
+            nav a {
+                margin-right: 10px;
+                text-decoration: none;
+                color: rgba(255, 0, 179, 0.884);
+            }
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                color:rgba(60, 255, 0, 0.884);
+            }
+        </style>
 	</head>
 	<body>
+        <nav> 
         <a href="/">inicio</a>
         <a href="/about"> nosotros</a>
         <a href="/Blog"> mi blog</a>
+		</nav>
 		<h1>Sobre nosotros</h1>
 		<p> chachi de la peluca</p>
         <p> españa ganará el mundial</p>
